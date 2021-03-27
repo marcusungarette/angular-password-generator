@@ -1,27 +1,39 @@
-# PasswordGenerator
+# Password Generator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.15.
+Steps Angular do to generate password :
 
-## Development server
+[1] - Users enters a password length.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[2] - Event handler triggered, we store the value as a property on our component
+class instance.
 
-## Code scaffolding
+[3] - User checks the 'Include Letters' checkbox.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[4] - Event handler triggered, we store the value as a property on our component
+class instance.
 
-## Build
+[5] - User checks the 'Include Numbers' checkbox.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+[6] - Event handler triggered, we store the value as a property on our component
+class instance.
 
-## Running unit tests
+[7] - User checks the 'Include Symbols' checkbox.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[8] - Event handler triggered, we store the value as a property on our component
+class instance.
 
-## Running end-to-end tests
+[9] - User clicks the 'Generate' button.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+[10] - Event handler triggered, we generate a password using the properties collected
+earlier.
 
-## Further help
+[11] - We update a 'password' property on the component class instance, which causes
+an update of the 'output' input.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Installing and Development server
+
+[1] - Clone this repo.
+
+[2] - Inside this project folder run `npm install`.
+
+[3] - Run `ng serve` or `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

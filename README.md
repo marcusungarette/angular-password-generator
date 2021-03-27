@@ -2,7 +2,7 @@
 
 Steps Angular do to generate password :
 
-[1] - Users enters a password length.
+[1] - User enters a password length.
 
 [2] - Event handler triggered, we store the value as a property on our component
 class instance.
